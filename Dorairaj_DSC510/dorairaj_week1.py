@@ -1,7 +1,11 @@
+# ============================================
+# Title: Week 1 - Hello World
 # Author: Ravi Dorairaj
-# Course: DSC510 - Fall 2025
-# Assignment: Week 1 - Hello World
-# Date: 09/11/2025
-# Description: First Python program to say Hello World demonstrate setup in PyCharm
+# Date: 11 September 2025
+# Modified By: N/A
+# Description: This program demonstrates a basic Python setup
+#              in PyCharm by printing "Hello World" to the console.
+# ============================================
 
+# print statement to display "Hello World" in the console
 print("Hello World")
