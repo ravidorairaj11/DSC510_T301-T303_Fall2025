@@ -2,7 +2,7 @@
 # Week 2
 # Programming Assignment Week 2
 # Author: Ravi Dorairaj
-# Date: 09/16/2025
+# Date: 09/17/2025
 #
 # Program: Fiber Optic Installation Cost Calculator
 # Purpose:
@@ -17,10 +17,10 @@
 # Change(s) Made:
 # 1) Added error handling to check for invalid (non-numeric) input
 # 2) Added some comments to improve readability
-# Date of Change: 09/16/2025
+# Date of Change: 09/17/2025
 # Author: Ravi Dorairaj
 # Change Approved by: Instructor
-# Date Moved to Production: 09/16/2025
+# Date Moved to Production: 09/17/2025
 # --------------------------------------------------------
 
 # Welcome message before we get input from customer
