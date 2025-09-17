@@ -14,7 +14,9 @@
 #
 # Change Control Log:
 # Change#: 2
-# Change(s) Made: Added error handling to check for invalid (non-numeric) input, added some comments to improve readability
+# Change(s) Made:
+# 1) Added error handling to check for invalid (non-numeric) input
+# 2) Added some comments to improve readability
 # Date of Change: 09/16/2025
 # Author: Ravi Dorairaj
 # Change Approved by: Instructor
