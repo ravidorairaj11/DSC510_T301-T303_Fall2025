@@ -39,8 +39,7 @@ while True:
     else:
         print("❌ Invalid input. Please enter a numeric value.")
 
-# Define cost per foot
-# Added constant file for cost per foot and declared after validation for better memory management
+# Define cost per foot as a constant (PEP8: all caps for constants)
 COST_PER_FOOT = 0.95
 
 # Calculate total installation cost
