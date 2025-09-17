@@ -13,8 +13,8 @@
 #   the calculated total cost.
 #
 # Change Control Log:
-# Change#: 1
-# Change(s) Made: Added error handling to check for invalid (non-numeric) input.
+# Change#: 2
+# Change(s) Made: Added error handling to check for invalid (non-numeric) input, added some comments to improve readability
 # Date of Change: 09/16/2025
 # Author: Ravi Dorairaj
 # Change Approved by: Instructor
