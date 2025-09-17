@@ -23,33 +23,40 @@
 # Date Moved to Production: 09/17/2025
 # --------------------------------------------------------
 
-# Welcome message before we get input from customer
-print("Welcome to the Fiber Optic Installation Cost Calculator!")
+"""Week 2 — Fiber Optic Installation Cost Calculator."""
 
-# Retrieve user input for company name
-company_name = input("Please enter your company name: ")
+COST_PER_FOOT = 0.95  # PEP 8: constants in ALL_CAPS
 
-# Retrieve number of feet of fiber optic cable
-# Validate so only numeric input is accepted
-while True:
-    user_input = input("Enter the number of feet of fiber optic cable to be installed: ")
-    if user_input.replace(".", "", 1).isdigit():
-        feet_requested = float(user_input)
-        break
-    else:
-        print("Invalid input. Please enter a numeric value.")
 
-# Define cost per foot as a constant (PEP8: all caps for constants)
-COST_PER_FOOT = 0.95
+def main() -> None:
+    """Run the interactive calculator and print a receipt."""
+    print("Welcome to the Fiber Optic Installation Cost Calculator!")
 
-# Calculate total installation cost
-total_cost = feet_requested * COST_PER_FOOT
+    company_name = input("Please enter your company name: ").strip()
 
-# Print a formatted receipt
-print("\n----- Installation Receipt -----")
-print(f"Company Name: {company_name}")
-print(f"Feet of Fiber Optic Cable: {feet_requested:,.2f} ft")
-print(f"Cost per Foot: ${COST_PER_FOOT:.2f}")
-print(f"Total Installation Cost: ${total_cost:,.2f}")
-print("--------------------------------")
-print("Thank you for choosing our service!")
+    # Numeric validation using float() for robustness (handles 1e3, .5, spaces, etc.)
+    while True:
+        user_input = input("Enter the number of feet of fiber optic cable to be installed: ").strip()
+        try:
+            feet_requested = float(user_input)
+            # Optional: enforce non-negative values
+            if feet_requested < 0:
+                print("Invalid input. Please enter a non-negative number.")
+                continue
+            break
+        except ValueError:
+            print("Invalid input. Please enter a numeric value.")
+
+    total_cost = feet_requested * COST_PER_FOOT
+
+    print("\n----- Installation Receipt -----")
+    print(f"Company Name: {company_name}")
+    print(f"Feet of Fiber Optic Cable: {feet_requested:,.2f} ft")
+    print(f"Cost per Foot: ${COST_PER_FOOT:.2f}")
+    print(f"Total Installation Cost: ${total_cost:,.2f}")
+    print("--------------------------------")
+    print("Thank you for choosing our service!")
+
+
+if __name__ == "__main__":
+    main()

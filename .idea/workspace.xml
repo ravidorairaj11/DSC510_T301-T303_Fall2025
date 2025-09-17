@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16f670e0-6a0f-4c8c-b001-fa6948e4d247" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Dorairaj_DSC510/dorairaj_week2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dorairaj_DSC510/dorairaj_week2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757567591725</updated>
       <workItem from="1757567592851" duration="6228000" />
-      <workItem from="1757949271035" duration="1785000" />
+      <workItem from="1757949271035" duration="3287000" />
     </task>
     <servers />
   </component>
@@ -172,6 +172,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSC510_T301_T303_Fall2025$dorairaj_week1.coverage" NAME="dorairaj_week1 Coverage Results" MODIFIED="1757570584229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dorairaj_DSC510" />
     <SUITE FILE_PATH="coverage/DSC510_T301_T303_Fall2025$main.coverage" NAME="main Coverage Results" MODIFIED="1757570469202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DSC510_T301_T303_Fall2025$dorairaj_week2.coverage" NAME="dorairaj_week2 Coverage Results" MODIFIED="1758122816817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dorairaj_DSC510" />
+    <SUITE FILE_PATH="coverage/DSC510_T301_T303_Fall2025$dorairaj_week2.coverage" NAME="dorairaj_week2 Coverage Results" MODIFIED="1758124865159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dorairaj_DSC510" />
   </component>
 </project>
