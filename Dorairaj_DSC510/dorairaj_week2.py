@@ -21,7 +21,7 @@
 # Date Moved to Production: 09/16/2025
 # --------------------------------------------------------
 
-# Welcome message
+# Welcome message before we get input from customer
 print("Welcome to the Fiber Optic Installation Cost Calculator!")
 
 # Retrieve user input for company name
@@ -38,6 +38,7 @@ while True:
         print("❌ Invalid input. Please enter a numeric value.")
 
 # Define cost per foot
+# Added constant file for cost per foot and declared after validation for better memory management
 COST_PER_FOOT = 0.95
 
 # Calculate total installation cost
